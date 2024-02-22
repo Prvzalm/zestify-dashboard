@@ -10,7 +10,7 @@ const App = () => {
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
-
+//hello from PA
   return (
     <div className="app-container">
       <Sidebar onPageChange={handlePageChange} />
